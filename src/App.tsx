@@ -23,7 +23,7 @@ function App() {
   }, []);
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/Nikhil-Mishra-Resume.pdf";
+    link.href = "Nikhil-Mishra-Resume.pdf";
     link.download = "Nikhil-Mishra-Resume.pdf";
     link.click();
   };
@@ -185,7 +185,7 @@ function App() {
           </div>
           <div className="relative aspect-square rounded-2xl overflow-hidden">
             <img
-              src="../Image OF ME.jpg"
+              src="/Image OF ME.jpg"
               alt="NikhilKumar Mishra"
               className="object-cover w-full h-full"
             />
