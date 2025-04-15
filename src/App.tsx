@@ -78,7 +78,7 @@ function App() {
               </a>
               <button className="bg-black text-white px-4 py-2 rounded-lg hover:bg-gray-800 transition-colors flex items-center gap-2">
               <a
-  href="/public/Nikhil-Mishra-Resume.pdf"
+  href="/Nikhil-Mishra-Resume.pdf"
   download
   className="inline-flex items-center gap-2 "
 >
